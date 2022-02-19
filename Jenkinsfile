@@ -1,7 +1,9 @@
 
 pipeline {
 
-    agent any stages {
+    agent any 
+  
+  stages {
 
         stage('Get Latest Code') {
 
